@@ -75,7 +75,7 @@ To select module system when compiling via Gradle, you should set `moduleKind` p
 <div class="sample" markdown="1" theme="idea" mode="groovy">
 
 ``` groovy
-compileKotlin2Js.kotlinOptions.moduleKind = "commonjs"
+compileKotlinJs.kotlinOptions.moduleKind = "commonjs"
 ```
 
 </div>
